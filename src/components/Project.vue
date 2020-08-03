@@ -290,7 +290,7 @@ export default {
 @media screen and (max-width: 1024px) {
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
     column-gap: 38px;
     margin-top: 20px;
     & :hover {
@@ -347,6 +347,7 @@ export default {
       width: 320px;
       & .content {
         width: 280px;
+        padding-left: 5px;
       }
     }
   }
