@@ -287,7 +287,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
   .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
